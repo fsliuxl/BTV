@@ -23,5 +23,5 @@ opts.block_size  = 4;
 xrec_btv  = btv_admm_gray(b,Phi,opts);
 [psnr, ssim] = msqia(x_ori, xrec_btv)
 
-% The result is [0.0714, 22.9235]
+% The result is [30.5689, 0.8392]
 
